@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>24tkt.com</title>
+        <!-- font awesome -->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+        <!-- Custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+        <!--------------------- HEADER NAV AREA STRAT -------------------->
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <div class="nav-body">
+                        <a class="nav-logo" href="#">
+                            <img src="assets/image/logo/24tkt-logo.png" alt="nav-logo">
+                        </a>
+
+                        <a class="navbar-toggle">
+                            <span class="fas fa-bars"></span>
+                        </b>
+
+                        <div class="navbar-collapse">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="assets/image/icons/icon-support.png">
+                                        Supports</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="assets/image/icons/icon-mybookings.png">
+                                        My Bookings</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="assets/image/icons/icon-wallet.png">
+                                        Wallet</a>
+                                </li>
+
+                                <li>
+                                    <a href="#"><img src="assets/image/icons/icon-24tkt.png">
+                                        Login / Create Account</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--------------------- HEADER NAV AREA END -------------------->
+
+        <!----------------------- HERO AREA STRAT ---------------------->
+        <section class="hero-banner-area">
+            <div class="container">
+                <div class="banner-text-area">
+                    <h2>
+                        Search, Book and
+                        <span>Relax</span>
+                    </h2>
+                    <p>Loriam ipsom dolor sit amet Loriam ipsom dolor sit amet Loriam ipsom</p>
+                </div>
+
+                <div class="search-bar">
+                    <ul class="tab-box">
+                        <li>
+                            <a class="tab-btn active"><img src="assets/image/icons/plane.png">
+                                <span>
+                                    Flights
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tab-btn"><img src="assets/image/icons/kabah.png">
+                                <span>Umrah Flights</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tab-btn"><img src="assets/image/icons/hotel.png">
+                                <span>
+                                    Hotels
+                                </span>
+                                <div class="update">New</div>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tab-btn"><img src="assets/image/icons/train.png">
+                                <span>Train-tickets</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content-container">
+                        <div class="single-tab-content active">
+                            <div class="bulletpoint display-flex">
+                                <div class="radio-container">
+                                    <input type="radio" id="ow" name="os"/>
+                                    <label for="ow">One way</label>
+
+                                    <input type="radio" id="rt" name="os" checked="true"/>
+                                    <label for="rt" checked="true" class="active">Round Trip</label>
+
+                                    <input type="radio" id="mc" name="os"/>
+                                    <label for="mc">Multi-city</label>
+                                </div>
+
+                                <div class="promotion">
+                                    <div class="promotion-title">
+                                        <i class="fas fa-star"></i>
+                                        Promotion
+                                    </div>
+                                    <div class="promotion-select-item">
+                                        <select name="codes" id="#" class="select-box">
+                                            <option value="0">Please select a promotion</option>
+                                            <option value="1">EID-UL-ADHA</option>
+                                            <option value="2">20% City Bank</option>
+                                            <option value="3">GP STAR</option>
+                                        </select>
+                                        <span>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="flight-search display-flex">
+                                <div class="search-body">
+                                    <label for="search-body">
+                                        Form
+                                    </label>
+                                    <h4>Mumbai
+                                        <span>
+                                            BOM</span>
+                                    </h4>
+                                    <p>Chhtrapati Shivaji International..</p>
+                                </div>
+                                <div class="search-body side-border">
+                                    <label for="search-body">
+                                        To
+                                    </label>
+                                    <h4>Delhi
+                                        <span>DEL</span>
+                                    </h4>
+                                    <p>Inderagandhi Internation Airport</p>
+                                </div>
+                                <div class="search-body">
+                                    <label for="search-body" class="label-arrow">
+                                        Depature
+                                    </label>
+                                    <h4>Mar 20, 2020</h4>
+                                    <p>Tuesday</p>
+                                </div>
+                                <div class="search-body side-border">
+                                    <label for="search-body" class="label-arrow">
+                                        Return
+                                    </label>
+                                    <h4>Mar 23, 2020
+                                    </h4>
+                                    <p>Thursday</p>
+                                </div>
+                                <div class="search-body">
+                                    <label for="search-body" class="label-arrow">
+                                        Passengers & Class
+                                    </label>
+                                    <h4>1 Adult
+                                    </h4>
+                                    <p>Business Class</p>
+                                </div>
+                            </div>
+
+                            <div class="search-footer display-flex">
+                                <div class="cheack-box-area display-flex">
+                                    <div class="single-check-box">
+                                        <input type="checkbox" id="nsf">
+                                        <label for="nsf">Non-stop flight</label>
+                                    </div>
+
+                                    <div class="single-check-box">
+                                        <input type="checkbox" id="flexible-date" checked="true">
+                                        <label for="flexible-date">My dates are flexible (+/- 3 days)</label>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="btn btn-filled">
+                                    Search Flight
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="single-tab-content">
+                            <h1>Umrah</h1>
+                        </div>
+
+                        <div class="single-tab-content">
+                            <h1>Hotels</h1>
+                        </div>
+
+                        <div class="single-tab-content">
+                            <h1>train</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------------- HERO AREA END ---------------------->
+
+        <!----------------------- Mega Offers AREA STRAT ---------------------->
+        <section class="mega-offers-area py-75">
+            <div class="container">
+                <div class="section-title">
+                    <h2>24tkt Mega
+                        <span>Offers</span>
+                    </h2>
+                </div>
+
+                <div class="flex-wrapper-1">
+                    <div class="f-item flex-item-one">
+                        <div class="content-wrapper">
+                            <img src="assets/image/bg/bg-1.png" alt="" class="img-wrap">
+                            <div class="content-area">
+                                <img src="assets/image/logo/sm-logo.png" alt="logo">
+                                <h2>Fly
+                                    <span>Sandia</span>
+                                    <br>
+                                    to Amstedam</h2>
+
+                                <p>Loriam ipsom dolor sit amet Loriam</p>
+
+                                <a href="#" class="btn btn-white">
+                                    Book Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-item flex-item-two">
+                        <div class="content-wrapper">
+                            <img src="assets/image/bg/bg-2.png" alt="" class="img-wrap">
+                            <div class="content-area">
+                                <h3>
+                                    MegaSale
+                                </h3>
+                                <h4>Get 20%
+                                    <br>
+                                    Flight Discount</h4>
+
+                                <p>Loriam ipsom dolor sit amet Loriam</p>
+
+                                <a href="#" class="btn btn-white">
+                                    Claim Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-item flex-item-three">
+                        <div class="content-wrapper">
+                            <img src="assets/image/bg/bg-3.png" alt="" class="img-wrap">
+                            <div class="content-area">
+                                <h3>
+                                    Dhamaka
+                                </h3>
+                                <h4>Bonus offer</h4>
+
+                                <a href="#">
+                                    Claim Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-wrapper">
+                            <img src="assets/image/bg/bg-4.png" alt="" class="img-wrap">
+                            <div class="content-area">
+                                <h3>
+                                    <span>City Bank</span>
+                                </h3>
+                                <h4>Dhamaka Offer</h4>
+
+                                <a href="#">
+                                    Claim Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!----------------------- Mega Offers AREA END ---------------------->
+
+        <!----------------------- POPULAR FLIGHTS AREA STRAT ---------------------->
+        <section class="flights-area">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Popular Flights From
+                        <span>Dhaka</span>
+                    </h2>
+                </div>
+
+                <div class="flight-lists-wrapper">
+                    <div class="single-flights-container">
+                        <div class="airlines-info">
+                            <img src="assets/image/icons/ailine_logo.png" alt="flights" class="img-wrap">
+                            <div class="airlines-details">
+                                <h5 class="airlines-name">Airasia Airlinses</h5>
+                                <p class="flight-no">AK6117, I5774</p>
+                            </div>
+                        </div>
+                        <div class="flight-timing">
+                            <div class="depart-time">
+                                <h3>11.00</h3>
+                                <p>Mumbai</p>
+                            </div>
+                            <div class="interval-time">
+                                <p class="flight-length">02h 45m</p>
+                                <img src="assets/image/icons/timeing-divider.png" alt="">
+                                <p class="interval-status">Nonstop</p>
+                            </div>
+                            <div class="arrive-time">
+                                <h3>13.45</h3>
+                                <p>Delhi</p>
+                            </div>
+                        </div>
+                        <div class="ticket-price">
+                            <h3>
+                                <span>৳</span>
+                                13,419</h3>
+                        </div>
+
+                        <div class="details-info">
+                            <a href="#" class="btn btn-outline">See Details</a>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="single-flights-container">
+                        <div class="airlines-info">
+                            <img src="assets/image/icons/ailine_logo.png" alt="flights" class="img-wrap">
+                            <div class="airlines-details">
+                                <h5 class="airlines-name">Airasia Airlinses</h5>
+                                <p class="flight-no">AK6117, I5774</p>
+                            </div>
+                        </div>
+                        <div class="flight-timing">
+                            <div class="depart-time">
+                                <h3>11.00</h3>
+                                <p>Mumbai</p>
+                            </div>
+                            <div class="interval-time">
+                                <p class="flight-length">02h 45m</p>
+                                <img src="assets/image/icons/timeing-divider.png" alt="">
+                                <p class="interval-status">Nonstop</p>
+                            </div>
+                            <div class="arrive-time">
+                                <h3>13.45</h3>
+                                <p>Delhi</p>
+                            </div>
+                        </div>
+                        <div class="ticket-price">
+                            <h3>
+                                <span>৳</span>
+                                13,419</h3>
+                        </div>
+
+                        <div class="details-info">
+                            <a href="#" class="btn btn-outline">See Details</a>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="single-flights-container">
+                        <div class="airlines-info">
+                            <img src="assets/image/icons/ailine_logo.png" alt="flights" class="img-wrap">
+                            <div class="airlines-details">
+                                <h5 class="airlines-name">Airasia Airlinses</h5>
+                                <p class="flight-no">AK6117, I5774</p>
+                            </div>
+                        </div>
+                        <div class="flight-timing">
+                            <div class="depart-time">
+                                <h3>11.00</h3>
+                                <p>Mumbai</p>
+                            </div>
+                            <div class="interval-time">
+                                <p class="flight-length">02h 45m</p>
+                                <img src="assets/image/icons/timeing-divider.png" alt="">
+                                <p class="interval-status">Nonstop</p>
+                            </div>
+                            <div class="arrive-time">
+                                <h3>13.45</h3>
+                                <p>Delhi</p>
+                            </div>
+                        </div>
+                        <div class="ticket-price">
+                            <h3>
+                                <span>৳</span>
+                                13,419</h3>
+                        </div>
+
+                        <div class="details-info">
+                            <a href="#" class="btn btn-outline">See Details</a>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="single-flights-container">
+                        <div class="airlines-info">
+                            <img src="assets/image/icons/ailine_logo.png" alt="flights" class="img-wrap">
+                            <div class="airlines-details">
+                                <h5 class="airlines-name">Airasia Airlinses</h5>
+                                <p class="flight-no">AK6117, I5774</p>
+                            </div>
+                        </div>
+                        <div class="flight-timing">
+                            <div class="depart-time">
+                                <h3>11.00</h3>
+                                <p>Mumbai</p>
+                            </div>
+                            <div class="interval-time">
+                                <p class="flight-length">02h 45m</p>
+                                <img src="assets/image/icons/timeing-divider.png" alt="">
+                                <p class="interval-status">Nonstop</p>
+                            </div>
+                            <div class="arrive-time">
+                                <h3>13.45</h3>
+                                <p>Delhi</p>
+                            </div>
+                        </div>
+                        <div class="ticket-price">
+                            <h3>
+                                <span>৳</span>
+                                13,419</h3>
+                        </div>
+
+                        <div class="details-info">
+                            <a href="#" class="btn btn-outline">See Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  -->
+        <section class="holiday-plans-area py-84">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Make your
+                        <span>holiday plan</span>
+                    </h2>
+                </div>
+                <!--  -->
+                <div class="holiday-plans-container">
+                    <a href="#">
+                        <div class="single-plans-wrapper">
+                            <div class="plan-thumb">
+                                <img src="assets/image/bg/bg-6.png" alt="holiday-plans">
+                                <div class="thumb-content">
+                                    <h2>Bali,Indonesia</h2>
+                                    <h6>2 Night 3 Days</h6>
+                                </div>
+                            </div>
+                            <div class="content-wrapper">
+                                <h4 class="plans-price">BDT 20,000</h4>
+                                <p>Cost showing for per porson</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-plans-wrapper">
+                            <div class="plan-thumb">
+                                <img src="assets/image/bg/bg-6.png" alt="holiday-plans">
+                                <div class="thumb-content">
+                                    <h2>Bali,Indonesia</h2>
+                                    <h6>2 Night 3 Days</h6>
+                                </div>
+                            </div>
+                            <div class="content-wrapper">
+                                <h4 class="plans-price">BDT 20,000</h4>
+                                <p>Cost showing for per porson</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-plans-wrapper">
+                            <div class="plan-thumb">
+                                <img src="assets/image/bg/bg-6.png" alt="holiday-plans">
+                                <div class="thumb-content">
+                                    <h2>Bali,Indonesia</h2>
+                                    <h6>2 Night 3 Days</h6>
+                                </div>
+                            </div>
+                            <div class="content-wrapper">
+                                <h4 class="plans-price">BDT 20,000</h4>
+                                <p>Cost showing for per porson</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="single-plans-wrapper">
+                            <div class="plan-thumb">
+                                <img src="assets/image/bg/bg-6.png" alt="holiday-plans">
+                                <div class="thumb-content">
+                                    <h2>Bali,Indonesia</h2>
+                                    <h6>2 Night 3 Days</h6>
+                                </div>
+                            </div>
+                            <div class="content-wrapper">
+                                <h4 class="plans-price">BDT 20,000</h4>
+                                <p>Cost showing for per porson</p>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="app-area">
+            <div class="container">
+                <div class="gray-bg">
+                    <div class="app-content">
+                        <h2>Download our app</h2>
+                        <p>Download our official App, it's simple, fast, and easy to manage your all
+                            flight booking and payments. Available on Google Play and the App Store.</p>
+                        <ul>
+                            <li>
+                                <a href="#"><img src="assets/image/icons/google-play.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/image/icons/app-store.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-left-area">
+                        <a href="index.html">
+                            <img src="assets/image/logo/Logo-footer.png" alt="logo"></a>
+                        <p>
+                            24TKT Limited is a B2B and B2C Online Ticketing Platform which aims to build a
+                            dynamic and service oriented travel market in Bangladesh.
+                        </p>
+
+                        <div class="social-media-link">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/image/icons/facebook.png" alt="social-icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/image/icons/pinterest.png" alt="social-icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/image/icons/twitter1.png" alt="social-icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/image/icons/linkedin.png" alt="social-icon">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-right-area">
+                        <div class="footer-links">
+                            <h5>Company</h5>
+                            <ul>
+                                <li>
+                                    <a href="#">About
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Careers
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Mobile
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Blog
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        How we work
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  -->
+                        <div class="footer-links">
+                            <h5>Contact</h5>
+                            <ul>
+                                <li>
+                                    <a href="#">Help/FAQ
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Press
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Affiliates
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Hotel owners
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Partners
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  -->
+                        <div class="footer-links">
+                            <h5>Business with Us</h5>
+                            <ul>
+                                <li>
+                                    <a href="#">Owners
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Business Advantage
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Sponsored Placements
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Advertise with Us
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Become an Affiliate
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-links">
+                            <h5>More</h5>
+                            <ul>
+                                <li>
+                                    <a href="#">Airline fees
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Airlines
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Low fare tips
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rights-area">
+                    <div class="copy-rights">
+                        <p>&#169; 24tkt.com - 2020 All Rights Reserved</p>
+                    </div>
+                    <div class="select-area">
+                        <ul>
+                            <li>
+                                <span><img src="assets/image/icons/globe.png" alt="glove"></span>
+                                <select name="Language" class="select-box">
+                                    <option value="ENG">ENG</option>
+                                    <option value="BAN">BAN</option>
+                                </select>
+                                <div class="select-icon">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <span>৳</span>
+                                <select name="money" class="select-box">
+                                    <option value="BDT">BDT</option>
+                                    <option value="USD">USD</option>
+                                </select>
+                                <span>
+                                    <i class="fas fa-caret-down"></i>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- <section style="height: 1000vh"></section> -->
+
+        <!--  -->
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,239 @@
+@media screen and (max-width: 1200px) {
+    /* Responsive container for 1199px */
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    /* Section Content */
+    .section-title {
+        text-align: center;
+    }
+    /* Responsive Search-bar for 1199px */
+    .search-bar {
+        max-width: 100%;
+        padding: 0 15px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .search-body h4 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .search-body:first-child::after {
+        font-size: 12px;
+        right: -38px;
+    }
+    .flight-search {
+        padding: 10px 30px 10px 15px;
+    }
+    /*  */
+
+    /*  */
+    .flight-timing {
+        flex-direction: column;
+    }
+    .flight-timing .interval-time {
+        margin: 25px 0;
+    }
+
+    /* Holidays plans flex-box responsive */
+
+    .holiday-plans-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .holiday-plans-container .single-plans-wrapper {
+        margin-bottom: 15px;
+    }
+
+    .flex-wrapper-1 {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 991px) {
+
+    /* NAV AREA RESPONSIVE  */
+
+    .navbar-toggle {
+        display: block;
+        background-color: transparent;
+        border: none;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 300px;
+        height: 100%;
+        background-color: #FFFFFF!important;
+        z-index: 99;
+    }
+
+    .navbar-collapse ul {
+        display: block!important;
+        height: 100%;
+        padding: 25px 0;
+    }
+
+    .navbar .nav-body .navbar-collapse ul li {
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    .navbar .nav-body .navbar-collapse ul li {
+        margin-left: 0;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    /*  */
+    .search-bar {
+        width: 100%;
+        position: relative;
+    }
+    .search-body:first-child::after {
+        display: none;
+    }
+
+    /*  */
+
+    .single-flights-container {
+        flex-direction: column;
+    }
+
+    .airlines-info,
+    .arrive-time,
+    .ticket-price {
+        margin-bottom: 20px;
+    }
+
+    .interval-time img {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .holiday-plans-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .app-content {
+        padding: 82px 30px 82px 440px;
+    }
+
+    .flex-wrapper-1 {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .flex-item-one .content-wrapper .content-area {
+        width: fit-content;
+    }
+    .content-wrapper img {
+        width: 100%;
+    }
+
+    .content-wrapper .content-area img {
+        margin-bottom: 55px;
+        width: fit-content;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 778px) {
+    /*  */
+    .tab-btn span {
+        display: none;
+    }
+
+    .search-body {
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .flight-search {
+        flex-direction: column;
+    }
+
+    .bulletpoint,
+    .cheack-box-area,
+    .search-footer {
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+
+    .bulletpoint .radio-container {
+        margin-bottom: 18px;
+    }
+    /*  */
+
+    .gray-bg::before {
+        display: none;
+
+    }
+
+    .app-content {
+        padding: 82px;
+    }
+
+    .footer-right-area {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 576px) {
+    /*  */
+    .search-bar .tab-box {
+        width: 100%;
+    }
+
+    .tab-content-container {
+        border-radius: 0 0 6px 6px;
+    }
+    /*  */
+    .footer-left-area {
+        padding-right: 30px;
+        flex-grow: 1;
+    }
+    .footer-right-area {
+        flex-direction: column;
+    }
+    .rights-area {
+        flex-direction: column;
+    }
+    .copy-rights p {
+        margin-bottom: 10px;
+    }
+
+    .select-area ul li {
+        margin-left: 10px;
+    }
+}
